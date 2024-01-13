@@ -1,9 +1,5 @@
 
 .background{
-    /*background-size: 100% 100%;
-    /*position: absolute;*/
-   /* width: 4842px;
-    height: 1000px;*/
     position: absolute; 
     flex-direction: column; 
     justify-content: flex-start; 
@@ -14,15 +10,15 @@
     display: flex;    
 }
 .greeting{
-    width: 873px; 
-    height: 383px; 
-    left: 107px; 
-    top: 212px; 
+    width: 40%;
+    height: 20%;
+    left: 5%;
+    top: 10%;
     position: absolute;
 }
 .welcome{
-    width: 722px;
-    left: 1500px; 
+    width: 50%;
+    left: 70%;
     position: absolute; 
     color: #A91488; 
     font-size: 100px; 
@@ -31,10 +27,9 @@
     text-align: center;*/
 }
 .mahallah{
-    width: 922px; 
-    height: 99px; 
-    left: 1800px; 
-    top: 130px; 
+    width: 50%;
+    height: 10%;
+    left: 80%;
     position: absolute; 
     color: #A91488; 
     font-size: 100px; 
