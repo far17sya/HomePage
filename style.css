@@ -10,6 +10,10 @@
     display: flex;    
 }
 .greeting{
+    /*width: 873px; 
+    height: 383px; 
+    left: 107px; 
+    top: 212px; */
     width: 40%;
     height: 20%;
     left: 5%;
@@ -17,9 +21,11 @@
     position: absolute;
 }
 .welcome{
-    width: 50%;
-    left: 70%;
-    position: absolute; 
+    width: 722px;
+    left: 1500px; 
+    /*width: 50%;
+    left: 70%;*/
+    position: relative; 
     color: #A91488; 
     font-size: 100px; 
     font-family: Inria Serif; 
@@ -27,10 +33,15 @@
     text-align: center;*/
 }
 .mahallah{
-    width: 50%;
+    width: 922px; 
+    height: 99px; 
+    left: 1800px; 
+    top: 190px; 
+    /*width: 50%;
     height: 10%;
     left: 80%;
-    position: absolute; 
+    top: 28%;*/
+    position: relative; 
     color: #A91488; 
     font-size: 100px; 
     font-family: Inria Serif; 
@@ -79,11 +90,12 @@
     cursor: pointer;
 }
 .logo{
-    top: 120px; 
+    top: 130px; 
+    left:3100px;
     position: absolute;
     align-items:flex-end;
-    right:1500px;
     cursor: pointer;
+    display: inline;
 }
 .logo2{
     position: absolute;
@@ -92,7 +104,7 @@
 .about{
     left: 1600px; 
     top: 590px; 
-    position: absolute; 
+    position: relative; 
     color: black; 
     word-wrap: break-word;
     font-family: Georgia, serif;
@@ -128,7 +140,8 @@
 .statement{
     width: 2000px; 
     height: 1300px; 
-    right: 1100px; 
+    left:2500px;
+    /*right: 1100px; */
     top: 1200px;
     position: absolute; 
     background: #E8E7E7; 
@@ -156,20 +169,20 @@
 .announcement2{
     /*width: 100%; 
     height: 100%; */
-    width:1000px;
+    width:4842px;
     height: 1000px;
     top: 2650px;
-    left: 0px;
-    flex: 3;
-    position: relative; 
+    /*flex: 3;*/
+    /*position: relative; */
+    position: absolute;
     background: #DDDADD; 
     border-radius: 1px; 
     overflow: hidden; 
     border: 1px rgba(0, 0, 0, 0.10) solid;
-   /* flex-direction: column; 
+    flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
-    display: inline-flex;*/
+    display: inline-flex;
 }
 .pattern1{
     width: 360px; 
@@ -189,14 +202,14 @@
     top: 2660px;
     /*align-items: end 100px;*/
     align-self: flex-end ;
-    right: 368px;
+    left: 4500px;
     position: absolute;
 }
 .pattern3{
     width: 360px; 
     height: 375px;
     top: 4290px;
-    right: 4920px;
+    left:9px; 
     position: relative;  
 }
 .pattern4{
@@ -209,11 +222,12 @@
     top: 4290px;
     /*align-items: end 100px;*/
     align-self: flex-end ;
-    right: 367px;
+    left: 4500px;
     position: absolute;
 }
 .one{
     /*width: 521px; */
+    margin-left: 2000px;
     margin-top: 100px;
     height: 150px; 
     text-align: center; 
@@ -259,7 +273,7 @@
     width: 549px; 
     height: 550px; 
     align-items: center;
-    left:1000px; 
+    left:3150px; 
     top: 2850px; 
     position: absolute;
     cursor: pointer;     
@@ -268,7 +282,7 @@
     width: 549px; 
     height: 550px; 
     align-items:flex-end;
-    right:1500px;
+    left:1000px;
     top: 2850px; 
     position: absolute; 
     cursor: pointer;   
@@ -276,10 +290,10 @@
 .announcement3{
    /* width: 1000px; 
     height: 1280px; */
-    width: 4842px;
+    width:4850px;
     height: 1000px;
     left: 0px; 
-    top: 3669px; 
+    top: 3660px; 
     position: absolute; 
     flex-direction: column; 
     justify-content: flex-start; 
@@ -291,7 +305,7 @@
     width: 549px; 
     height: 550px; 
     align-items: center;
-    left:1000px; 
+    left:3150px;  
     top: 3850px; 
     position: absolute;  
     cursor: pointer;    
@@ -300,7 +314,7 @@
     width: 549px; 
     height: 550px; 
     align-items:flex-end;
-    right:1500px;
+    left:1000px;
     top: 3850px; 
     position: absolute;  
     cursor: pointer; 
